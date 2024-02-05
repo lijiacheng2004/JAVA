@@ -1,0 +1,8 @@
+1.polymorphism:多态--PersonTest
+什么是多态？
+一个事物的多种形态
+
+2.向下转型；将多态的对象向下转型为子类类型
+--PersonTest1
+
+3.案例练习--GeometricObject

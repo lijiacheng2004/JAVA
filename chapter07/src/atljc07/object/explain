@@ -1,0 +1,20 @@
+类java.lang.Object是类层结构的根类，即所有其他类的父类。
+每个类都使用Object作为超类
+
+1.任何一个java类都直接或间接继承于Object类
+2.Object类中声明的结构（属性、方法等）就具有通用性
+   >Object类中没有声明属性
+   >Object类提供了一个空参的构造器
+   >重点关注：Object类中声明的方法
+
+3.equals()与==的区别？  equals()-->CustomerTest
+  1.== 用来判断数据值是否相等
+    equals() 用来判断地址值是否相等
+  2.==是一个运算符
+    equals()是一个方法 使用范围：只能使用在引用数据类型上
+
+4.ToString()--->ToStringTest
+  //在实际开发中，需要重写我们自定义的toString()
+
+toString()：查看内容
+equals(): 判断是否相等
